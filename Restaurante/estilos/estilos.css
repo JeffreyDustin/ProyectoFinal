@@ -1,0 +1,156 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+     display: block;
+}
+
+body{
+	background: #212121 url(../img/restaurantefondo.jpg);
+    color:blue;
+    font-family: arial;
+    font-size:1em;
+}
+ a{
+ 	color: blue;
+ 	font-weight:none;
+ 	text-decoration: none;
+ }
+ a .hover{
+   color: blue;
+ }
+ header,section#contino,footer{
+ 	background: rgba(150,150,0,0.1);
+ 	margin:0 auto;
+ 	max-width: 90%;
+ 	text-align: center;
+ }
+ header h1,nav{
+ 	display: inline-block;
+ 	max-width: 100%;
+ 	vertical-align:middle;
+ }
+ nav ul{
+ 	list-style: none;
+ }
+ nav li{
+ 	display: inline-block;
+ 	padding: 1em;
+ 	vertical-align: top;
+ }
+ nav a{
+ 	background: #fff;
+ 	border: 0.1em solid black;
+ 	border-radius: 10px 0.5px;
+    display:block;
+    font-family: verdana;
+    font-size: 1.1em;
+    padding: 0.2em;
+ }  
+ #platillo{
+   border: 90px solid blue;
+width: 1000px;
+
+background-color: #33CCCC;
+height: 750px;
+
+ }
+ #platillo2{
+    padding-right: 24px;
+ }
+ #lema{
+    color: black;
+ }
+
+
+ /*  CAPAS CONTENEDORAS  */
+ 
+#izquierda  {
+  width: 170px;
+  float: left;
+  }
+ 
+.derecha {
+  width: 750px;
+  float: left;
+  }
+ 
+/*  ELEMENTOS DEL MENU LATERAL  */
+ 
+#menu {
+  padding:0;
+  margin:0 auto;
+  list-style-type:none;
+  width:160px;
+  height:312px;
+  }
+#menu li a {
+  height:30px;
+  width:160px;
+  float:left;
+  border-bottom:2px solid #fff;
+  overflow: hidden;
+  }
+#menu li a img {
+  border:0;
+  }
+#menu li a:hover {
+  height:120px;
+  }
+ 
+/*  ELEMENTOS DEL MENU SUPERIOR */
+ 
+#menu2 {
+  padding:0;
+  margin:0 auto;
+  list-style-type:none;
+  height:120px;
+  width:354px;
+  }
+#menu2 li a {
+  width:30px;
+  height:120px;
+  float:left;
+  border-right:2px solid #fff;
+  overflow: hidden;
+  }
+#menu2 li a img {
+  border:0;
+  }
+#menu2 li a:hover {
+  background:#eee;
+  width:160px;
+  }
+ 
+/*  ELEMENTOS DE LA GALERIA DE IMAGENES */
+ 
+#galeria {
+  padding:0;
+  margin:40px auto 0 auto;
+  list-style-type:none;
+  height:300px;
+  width:774px;
+  border:1px solid #888;
+  }
+#galeria li {
+  width:60px;
+  height:300px;
+  float:left;
+  border-left:2px solid #000;
+  }
+#galeria li img {
+  height:300px;
+  width:60px;
+  border:0;
+  }
+#galeria li:hover {
+  background:#eee;
+  width:400px;
+  }
+#galeria li:hover img {
+  width:400px;
+  }
+
+  #fondomenu{
+    background: #212121 url(../img/fondoMenu.jpg);
+  }
